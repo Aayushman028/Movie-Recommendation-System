@@ -6,17 +6,17 @@ The Movie Recommendation System is a collaborative filtering-based application d
 ## Dataset
 You can downloaded the dataset from [kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata). Use the underlying download link to download the dataset.
 
-### About Dataset 
-Title: Movie Title.
-Overview: Abstract of the Movie.
-Popularity: Movie popularity rating as per TMDB.
-Vote_average: Votes average out of 10.
-Vote_count: Number of votes from the users.
-Release_date: Date of release of the movie.
-Keywords: Keywords for the movie by TMDB in the list.
-Genres: Movie Genres in the list.
-Cast: Cast of the movie on the list.
-Crew: Crew of the movie in the list.
+### Features Used 
+* Title: Movie Title.
+* Overview: Abstract of the Movie.
+* Popularity: Movie popularity rating as per TMDB.
+* Vote_average: Votes average out of 10.
+* Vote_count: Number of votes from the users.
+* Release_date: Date of release of the movie.
+* Keywords: Keywords for the movie by TMDB in the list.
+* Genres: Movie Genres in the list.
+* Cast: Cast of the movie on the list.
+* Crew: Crew of the movie in the list.
 
 
 ### Screenshot
