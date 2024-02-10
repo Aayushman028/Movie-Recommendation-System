@@ -1,11 +1,22 @@
 # Movie Recommendation System
 
 ## Aim of Project
+The Movie Recommendation System is a collaborative filtering-based application designed to provide personalized movie recommendations to users. Utilizing a dataset comprising information about 5000 movies and 5000 credits. Built using Python and machine learning libraries, this project showcases the power of data-driven recommendations in the entertainment industry.
 
 ### Dataset used
-These files contain metadata for all 45,000 movies listed in the Full MovieLens Dataset. The dataset consists of movies released on or before July 2017. Data points include cast, crew, plot keywords, budget, revenue, posters, release dates, languages, production companies, countries, TMDB vote counts and vote averages.
+You can downloaded the dataset from [kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata). Use the underlying download link to download the dataset.
 
-This dataset also has files containing 26 million ratings from 270,000 users for all 45,000 movies. Ratings are on a scale of 1-5 and have been obtained from the official GroupLens website.
+Title: Movie Title.
+Overview: Abstract of the Movie.
+Popularity: Movie popularity rating as per TMDB.
+Vote_average: Votes average out of 10.
+Vote_count: Number of votes from the users.
+Release_date: Date of release of the movie.
+Keywords: Keywords for the movie by TMDB in the list.
+Genres: Movie Genres in the list.
+Cast: Cast of the movie on the list.
+Crew: Crew of the movie in the list.
+
 
 ### Screenshot
 
@@ -16,9 +27,14 @@ This dataset also has files containing 26 million ratings from 270,000 users for
 
 - Python
 - Numpy
-- Pandas 
+- Pandas
+- NLP
+- Vectorization
 
 
 Acknowledgements
 
 This dataset is an ensemble of data collected from TMDB and GroupLens. The Movie Details, Credits and Keywords have been collected from the TMDB Open API. This product uses the TMDb API but is not endorsed or certified by TMDb. Their API also provides access to data on many additional movies, actors and actresses, crew members, and TV shows.
+
+## License
+Distributed under the MIT License. See [LICENSE](https://github.com/ShaanCoding/ReadME-Generator/blob/main/LICENSE.md) for more information.
