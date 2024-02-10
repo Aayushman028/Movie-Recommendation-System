@@ -3,9 +3,10 @@
 ## Aim of Project
 The Movie Recommendation System is a collaborative filtering-based application designed to provide personalized movie recommendations to users. Utilizing a dataset comprising information about 5000 movies and 5000 credits. Built using Python and machine learning libraries, this project showcases the power of data-driven recommendations in the entertainment industry.
 
-### Dataset used
+## Dataset
 You can downloaded the dataset from [kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata). Use the underlying download link to download the dataset.
 
+### About Dataset 
 Title: Movie Title.
 Overview: Abstract of the Movie.
 Popularity: Movie popularity rating as per TMDB.
